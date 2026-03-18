@@ -68,11 +68,11 @@ namespace GLTFast.Materials {
 #endif
 
         /// <summary>Name of the shader graph used for PBR metallic/roughness materials</summary>
-        public const string MetallicShader = "glTF-pbrMetallicRoughness";
+        public const string MetallicShader = "highlight-graph";
         /// <summary>Name of the shader graph used for unlit materials</summary>
-        public const string UnlitShader = "glTF-unlit";
+        public const string UnlitShader = "highlight-graph";
         /// <summary>Name of the shader graph used for PBR specular/glossiness materials</summary>
-        public const string SpecularShader = "glTF-pbrSpecularGlossiness";
+        public const string SpecularShader = "highlight-graph";
 
         /// <summary>MotionVector shader tag name</summary>
         public const string MotionVectorTag = "MotionVector";
@@ -86,7 +86,7 @@ namespace GLTFast.Materials {
         // ReSharper restore MemberCanBeProtected.Global
 
 #if UNITY_EDITOR
-        const string k_ShaderPathPrefix = "Packages/" + GltfGlobals.GltfPackageName + "/Runtime/Shader/";
+        const string k_ShaderPathPrefix = "Assets/shaders/hightlight-graph.shadergraph";
 #endif
 
         const string k_ShaderGraphsPrefix = "Shader Graphs/";
